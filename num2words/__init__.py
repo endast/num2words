@@ -30,6 +30,7 @@ from . import lang_LV
 from . import lang_PL
 from . import lang_RU
 from . import lang_ID
+from . import lang_SE
 from . import lang_NO
 from . import lang_DK
 from . import lang_PT_BR
@@ -59,6 +60,7 @@ CONVERTER_CLASSES = {
     'lv': lang_LV.Num2Word_LV(),
     'pl': lang_PL.Num2Word_PL(),
     'ru': lang_RU.Num2Word_RU(),
+    'se': lang_SE.Num2Word_SE(),
     'no': lang_NO.Num2Word_NO(),
     'dk': lang_DK.Num2Word_DK(),
     'pt_BR': lang_PT_BR.Num2Word_PT_BR(),
